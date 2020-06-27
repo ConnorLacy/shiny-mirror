@@ -1,0 +1,13 @@
+{
+  "name": "shiny-copy",
+  "version": "1.0.0",
+  "description": "Recreation of shiny-sniffle",
+  "main": "index.js",
+  "author": "Connor Lacy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8"
+  }
+}
