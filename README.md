@@ -22,11 +22,11 @@
 ## Webpack
 ***
 # Dependencies
-- Express 
+- Express  
   Creating a server with express
-- React
+- React  
   Necessary for React Application
-- React-DOM
+- React-DOM  
   Necessary for React Application
 ***
 # Dev Dependencies
