@@ -1,6 +1,6 @@
 # Notes
-- Will be using this readme to describe the purpose of each of the components
-- of this SSR React application
+  Will be using this readme to describe the purpose of each of the components
+  of this SSR React application
 ***
 # Directory
 ## bin
