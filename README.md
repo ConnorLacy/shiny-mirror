@@ -2,6 +2,14 @@
   Will be using this readme to describe the purpose of each of the components
   of this SSR React application
 ***
+# Flow
+  - Application is written in TypeScript. 
+  - Custom ESLint rules used for linting code during development in VSCode. 
+  - TS-node compiles TS into JS executable by Node
+  - Babel converts modern ES syntax into common JS for browser compatibility
+  - Webpack bundles assets for delivery to browser
+
+***
 # Directory
 ## bin
 - 
@@ -20,6 +28,7 @@
     The middleware contains the primary logic for compiling the React application into a String and serving
     it to the DOM. This String will be hydrated with React logic later
 ## Webpack
+## Babel
 ***
 # Dependencies
 - Express  
