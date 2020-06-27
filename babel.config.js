@@ -3,9 +3,15 @@
     for cross-browser compatibility. Configuration defines presets -- groups
     of plugins
 */
+console.log('Appying configuration to Babel...')
 
 module.exports = (api) => {
+  // Babel looks for "envName" when loaded. If not supplied, looks to NODE_ENV
+  // to use for "envName". We supplied NODE_ENV in the run script in package.json
+  // api.env() returns value of "envName"
   const ENV = api.env()
+
+  // Assign boolean value depending on NODE_ENV mode
   const CLIENT_DEVELOPMENT = ENV === 'client_development'
   const SERVER_DEVELOPMENT = ENV === 'server_development'
   const SERVER_PRODUCTION = ENV === 'server_production'
