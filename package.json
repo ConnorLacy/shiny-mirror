@@ -6,6 +6,11 @@
   "author": "Connor Lacy",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "NODE_ENV=development PORT=3000 ts-node -T bin/development.ts",
+    "lint": "eslint .",
+    "production_client": "webpack --config ./webpack/client.production.ts"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.13.1",
