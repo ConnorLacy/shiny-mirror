@@ -28,9 +28,13 @@
   Necessary for React Application
 - React-DOM  
   Necessary for React Application
+- ts-node  
+  Allows Node to execute TypeScript (Compiler). Loads options from .tsconfig.json
 ***
 # Dev Dependencies
 - Types
   - @types/express
   - @types/react
   - @types/react-dom
+  - prettier (linting)
+  - typescript 

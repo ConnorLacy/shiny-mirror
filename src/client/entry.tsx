@@ -6,8 +6,8 @@
 */
 
 import React from 'react'
-import {hydrate} from 'react-dom'
+import { hydrate } from 'react-dom'
 
-import {App} from '../app/app'
+import { App } from '../app/app'
 
-hydrate(<App/>, document.getElementById('react-root'))
+hydrate(<App />, document.getElementById('react-root'))

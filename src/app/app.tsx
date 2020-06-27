@@ -7,5 +7,5 @@
 import React from 'react'
 
 export const App = () => {
-    return (<h1>This is the app!</h1>)
+  return <h1>This is the app!</h1>
 }
