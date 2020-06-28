@@ -4,10 +4,10 @@
 ***
 # Flow
   - Application is written in TypeScript. 
-  - Custom ESLint rules used for linting code during development in VSCode. 
-  - TS-node compiles TS into JS executable by Node
-  - Babel converts modern ES syntax into common JS for browser compatibility
-  - Webpack bundles assets for delivery to browser
+  - Custom ESLint rules used for linting code during development in VSCode & Git Actions
+  - TS-node runs TSC. TSC is compiler generating executable for Node. Node then executes.
+  - Webpack starts compiling files. When encounters .tsx/.ts files, hands off to babel (using babel-loader)
+    to transpile to common-js, then hands back to webpack for compilation. 
 
 ***
 # Directory
