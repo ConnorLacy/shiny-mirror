@@ -1,3 +1,7 @@
+/*
+  Mainly type-checking
+*/
+
 {
   "compilerOptions": {
     "declaration": true,
