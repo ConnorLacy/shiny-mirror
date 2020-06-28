@@ -1,20 +1,17 @@
 name: Linting Compliance
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest #18.04LTS
     name: Checking compliance
     steps: 
-      - name: Checkout
+      - name: Checkout Head
         uses: actions/checkout@v2
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           
-      - name: Display current branch
-        run: echo running on branch ${GITHUB_REF##*/}
-          
-      - name: Check for scripts
-        run: cat package.json
+      - name: Check Linting Compliance
+        run: yarn lint
       
