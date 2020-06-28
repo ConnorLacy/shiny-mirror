@@ -38,7 +38,7 @@
 - React-DOM  
   Necessary for React Application
 - ts-node  
-  Allows Node to execute TypeScript (Compiler). Loads options from .tsconfig.json
+  Uses TSC to compile TypeScript into executable for Node, then tells node to execute
 ***
 # Dev Dependencies
 - Types

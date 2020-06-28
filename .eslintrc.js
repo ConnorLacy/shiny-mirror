@@ -1,6 +1,6 @@
 /*
-    Custom Linting provided by @verydanny eslint-plugin-verydanny. Used to 
-    standardize code formatting and enforce applied rules
+  Custom Linting provided by @verydanny eslint-plugin-verydanny. Used to 
+  standardize code formatting and enforce applied rules
 */
 
 module.exports = {
@@ -15,9 +15,9 @@ module.exports = {
   ],
 
   /*
-        Changing default parser from Espree to ts-config. This is a dev-dependency
-        we added and configured for TypeScript
-    */
+    Changing default parser from Espree to ts-config. This is a dev-dependency
+    we added and configured for TypeScript
+  */
   parserOptions: {
     project: 'tsconfig.json',
   },

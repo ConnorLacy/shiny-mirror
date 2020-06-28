@@ -20,10 +20,12 @@ module.exports = function clientPreset(_api, options = {}) {
     loose = true,
   } = options
 
-  // This is just option configuration of the provided babel preset-env,
-  // which is essential for proper transpiling. Our predefined plugins
-  // file specifies in finer detail additional plugins necessary for the syntax
-  // we intend to use with TypeScript
+  /* 
+    This is just option configuration of the provided babel preset-env,
+    which is essential for proper transpiling. Our predefined plugins
+    file specifies in finer detail additional plugins necessary for the syntax
+    we intend to use with TypeScript
+  */
   const presets = [
     [
       // Smart preset which contains many standard plugins
