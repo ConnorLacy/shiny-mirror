@@ -12,6 +12,9 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           
-      - name: Check Linting Compliance
+      - name: Add dependencies
+        run: yarn add eslint-plugin-verydanny
+      
+      - name: Checking Linting Compliance
         run: yarn lint
       
