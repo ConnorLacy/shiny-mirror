@@ -1,6 +1,6 @@
 name: Linting Compliance
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   build:
@@ -10,7 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.push.head.sha }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          
+      - name: Display current branch
+        run: echo running on branch ${GITHUB_REF##*/}
           
       - name: Check for scripts
         run: cat package.json
