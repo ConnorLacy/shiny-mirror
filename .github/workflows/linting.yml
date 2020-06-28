@@ -9,10 +9,7 @@ jobs:
     steps: 
       - name: Checkout Latest
         uses: actions/checkout@v2
-        
-      - name: Install deps
-        run: yarn
       
       - name: Lint Check
-        run: yarn lint
+        run: cat package.json
       
