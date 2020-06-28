@@ -11,7 +11,7 @@ module.exports = {
     'plugin:verydanny/react',
     'plugin:verydanny/node',
     'plugin:verydanny/jest',
-    'plugin:verydanny/prettier',
+    'plugin:verydanny/prettier', 
   ],
 
   /*
